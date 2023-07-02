@@ -6,7 +6,8 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  An open and independent, reserach and engineering organisation.
+  An open, independent and multi-disciplinary research and engineering organisation
+  for web security.
 
 # Build settings
 
@@ -15,6 +16,9 @@ theme: minima
 # plugins:
 #   - jekyll-feed
 #   - jekyll-seo-tag
+
+gems:
+  jekyll-email-protect
 
 # Theme-specific settings
 
