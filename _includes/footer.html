@@ -18,7 +18,11 @@
             <li class="p-name">{{ site.author.name | escape }}</li>
           {% endif -%}
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            <li>
+              <a class="u-email" href="mailto:&#050;&#053;&#052;&#108;&#097;&#098;&#115;&#064;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#046;&#099;&#111;&#109;">
+                &#050;&#053;&#052;&#108;&#097;&#098;&#115;&#064;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#046;&#099;&#111;&#109;
+              </a>
+            </li>
           {%- endif %}
         </ul>
       {%- endif %}
