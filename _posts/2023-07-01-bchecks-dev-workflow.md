@@ -64,17 +64,3 @@ Please note that few of the things that we have discussed here might change in t
 If you are aware of similar tools that serve the same purpose, well, you can continue using the same from your arsenal. As long as you know your tool best, the more you can achieve with it. And we don't suggest switching to BChecks until you desperately need it in action. However, if you have a use case where things can only be possible with BChecks or BChecks can improve pen testers experience. Kindly share it with the community.
 
 Cheers!
-
-```mermaid
-sequenceDiagram
-    participant dotcom
-    participant iframe
-    participant viewscreen
-    dotcom->>iframe: loads html w/ iframe url
-    iframe->>viewscreen: request template
-    viewscreen->>iframe: html & javascript
-    iframe->>dotcom: iframe ready
-    dotcom->>iframe: set mermaid data on iframe
-    iframe->>iframe: render mermaid
-```
-
